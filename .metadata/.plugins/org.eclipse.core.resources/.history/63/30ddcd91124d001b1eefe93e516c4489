@@ -1,0 +1,14 @@
+package com.jobready.producerconsumer;
+import java.util.*;
+
+public class Producer implements Runnable {
+	
+	List<Integer> questionList = new ArrayList<>();
+			
+
+	@Override
+	public void run() {
+
+	}
+
+}

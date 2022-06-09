@@ -1,0 +1,12 @@
+package com.jobready.producerconsumer;
+import java.util.*;
+
+public class Producer implements Runnable{
+
+	@Override
+	public void run() {
+		// 
+		
+	}
+
+}

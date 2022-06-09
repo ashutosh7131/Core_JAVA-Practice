@@ -1,0 +1,19 @@
+
+public class Zoo {
+
+	public static void main(String[] args) {
+		
+		Animal animal1 = new Animal(12, "M", 23);
+		//animal1.eat();
+		
+		Bird bird1 = new Bird(3, "F", 10);
+		//bird1.fly();
+		//bird1.eat();
+		//bird1.sleep();
+		
+		Chicken chick = new Chicken(12, "F", 120);
+		chick.fly();
+
+	}
+
+}

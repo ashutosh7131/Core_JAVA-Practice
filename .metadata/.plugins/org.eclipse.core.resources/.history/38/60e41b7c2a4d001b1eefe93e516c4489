@@ -1,0 +1,17 @@
+package com.jobready.producerconsumer;
+import java.util.*;
+import java.util.concurrent.ArrayBlockingQueue;
+import java.util.concurrent.BlockingQueue;
+
+import org.graalvm.compiler.nodes.calc.IntegerDivRemNode;
+
+public class Application {
+
+	public static void main(String[] args) {
+		
+		BlockingQueue<Integer> questionQueue = new ArrayBlockingQueue<Integer>();
+		
+		
+	}
+
+}

@@ -1,0 +1,25 @@
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+public class JDBC_CRUD {
+
+	public static void main(String[] args) {
+
+		String url = "jdbc:mysql://localhost:3306/employees_database";
+		try {
+			Connection connection = DriverManager.getConnection(url, "root", "1234");
+			Statement statement = connection.createStatement();
+			statement.executeUpdate(
+					"insert into employees_tbl(id,name,dept,salary) " + "values(800,'Juliet','Sales',5500)");
+
+			System.out.println("Executed An Update Statement.....");
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+
+	}
+
+}

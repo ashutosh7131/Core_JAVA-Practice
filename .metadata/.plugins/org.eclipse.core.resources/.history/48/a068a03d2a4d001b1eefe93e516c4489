@@ -1,0 +1,6 @@
+package com.jobready.producerconsumer;
+import java.util.*;
+
+public class Producer {
+
+}

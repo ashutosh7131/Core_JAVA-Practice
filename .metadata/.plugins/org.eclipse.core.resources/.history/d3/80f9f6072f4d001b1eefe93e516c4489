@@ -1,0 +1,13 @@
+package com.jobready.threadpools;
+
+public class MessageProcessor {
+	
+	private int message;
+
+	public MessageProcessor(int message) {
+		super();
+		this.message = message;
+	}
+	
+
+}

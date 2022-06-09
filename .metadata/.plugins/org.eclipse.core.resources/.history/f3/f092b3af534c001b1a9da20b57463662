@@ -1,0 +1,11 @@
+package com.jobready.client;
+import com.jobready.*;
+
+public class Appliction {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

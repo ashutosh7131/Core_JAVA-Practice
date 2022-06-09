@@ -1,0 +1,8 @@
+
+public class Robot {
+	
+	public void walk() {
+		System.out.println("Robot Walking");
+	}
+
+}

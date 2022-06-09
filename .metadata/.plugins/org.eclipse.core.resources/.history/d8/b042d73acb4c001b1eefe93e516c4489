@@ -1,0 +1,12 @@
+package com.jobready.client;
+import com.jobready.*;
+import java.util.*;
+
+public class Appliction {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

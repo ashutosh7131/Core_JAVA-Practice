@@ -1,0 +1,24 @@
+package com.jobready.client;
+import com.jobready.*;
+import com.jobready.inventory.InventoryManager;
+
+import java.util.*;
+
+public class Appliction {
+
+	public static void main(String[] args) {
+		
+		InventoryManager manager = new InventoryManager();
+		
+		Thread inventoryTask = new new Runnable( {
+			
+			@Override
+			public void run() {
+				
+			}
+		});
+		
+
+	}
+
+}
